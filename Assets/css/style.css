@@ -2,6 +2,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
     line-height: 1.65;
+    max-width: 500px;
 }
 
 h2 {
@@ -14,9 +15,10 @@ h2 {
 header {
     background-color: black;
     box-sizing: border-box;
-    padding: 35px;
-    height: 15vh;
+    padding: 30px;
+    height: 18vh;
     width: 100%;
+    text-align: center;
 }
 
 header img {
@@ -25,14 +27,15 @@ header img {
 
 .topContent {
     background-size: cover;
+    background-position: center;
     background-image: url('../images/banner.jpg');
-    height: 580px;
+    height: 480px;
     width: 100%;
     display: table;
+    text-align: center;
 }
 
 .title {
-    text-align: center;
     display: table-cell;
     vertical-align: middle;
 }
@@ -57,29 +60,30 @@ header img {
 
 .centerContent {
     box-sizing: border-box;
-    height: 700px;
+    height: 800px;
     display: table;
     width: 100%;
+    text-align: center;
+    line-height: 1.5;
+    padding: 50px;
 }
 
 .centerContent section {
     display: table-cell;
     vertical-align: middle;
-    padding: 50px;
 }
 
 .notebook {
-    float: left;
     border-radius: 50%;
-    padding: 50px;
-
+    width: 70%;
+    margin: 30px 0;
 }
 
 .paragraph {
-    width: 40%;
-    float: right;
-    padding: 100px;
+    text-align: center;
+    margin: 20px 0px ;
 }
+
 
 .test {
     background-color: #e22d0e;
@@ -98,7 +102,7 @@ header img {
 
 .commento h2 {
     color: white;
-    font-size: 28px;
+    font-size: 35px;
 }
 
 .secondParagraph {
@@ -115,21 +119,13 @@ header img {
     text-align: center;
 }
 
-.prova {
-    text-align: center;
-    height: 400px;
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .imgLinks {
     border: 1px solid #dee1e3;
     text-align: center;
-    display: inline-block;
-    width: 25%;
+    width: 85%;
     font-size: 15px;
     height: 330px;
-    margin: 15px;
+    margin: 50px auto;
 }
 
 .imgLinks img {
@@ -139,34 +135,33 @@ header img {
 
 footer {
     background-color: #25a2c3;
+    height: 400px;
+    text-align: center;
 }
 
 .foot {
     display: table;
     color: #c8e7f0;
-    height: 330px;
-    width: 20vw;
+    width: 50vw;
     margin: auto;
+    text-align: center;
 }
 
 .secFoot {
     display: table-cell;
     vertical-align: middle;
-
+    width: 100%;
+    padding: 30px;
 }
 
 .secFoot h2 {
     color: white;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
 }
 
 .secFoot a {
     color: #c8e7f0;
-}
-
-.secFoot div {
-    text-align: left;
 }
 
 .copyright {
@@ -176,4 +171,8 @@ footer {
 
 i {
     color: white;
+}
+
+hr {
+    width: 60vw;
 }
