@@ -174,5 +174,6 @@ i {
 }
 
 hr {
-    width: 60vw;
+    width: 50vw;
+    border: 1px solid #c8e7f0;
 }
