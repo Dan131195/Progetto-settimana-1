@@ -50,7 +50,7 @@ header img {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     border-radius: 5px;
-    padding: 1.5em 2em;
+    padding: 1.2em 2.5em;
     color: white;
     border: none;
 }
@@ -173,4 +173,8 @@ footer {
 .copyright {
     font-size: 17px;
     text-align: center;
+}
+
+i {
+    color: white;
 }
