@@ -1,0 +1,175 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+
+header {
+    background-color: black;
+    box-sizing: border-box;
+    padding: 35px;
+    height: 15vh;
+    width: 100%;
+}
+
+header img {
+    height: 100%;
+}
+
+.topContent {
+    background-size: cover;
+    background-image: url('../images/banner.jpg');
+    height: 580px;
+    width: 100%;
+    display: table;
+}
+
+.title {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.topContent h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;
+    font-size: 2em;
+}
+
+.topContent button {
+    background-color: #f04c2f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 1.5em 2em;
+    color: white;
+    border: none;
+}
+
+.centerContent {
+    box-sizing: border-box;
+    height: 700px;
+    display: table;
+    width: 100%;
+}
+
+.centerContent section {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 50px;
+}
+
+.notebook {
+    float: left;
+    border-radius: 50%;
+    padding: 50px;
+
+}
+
+.paragraph {
+    width: 40%;
+    float: right;
+    padding: 100px;
+}
+
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+
+.test {
+    background-color: #e22d0e;
+    height: 330px;
+    color: white;
+    width: 100%;
+    display: table;
+}
+
+.commento {
+    box-sizing: border-box;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.commento h2 {
+    color: white;
+}
+
+.secondParagraph {
+    font-size: 15px;
+}
+
+.thirdParagraph {
+    font-size: 10px;
+}
+
+.link {
+    height: 600px;
+    display: table;
+    text-align: center;
+}
+
+.prova {
+    text-align: center;
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.imgLinks {
+    border: 1px solid #dee1e3;
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    font-size: 15px;
+    height: 330px;
+    margin: 15px;
+}
+
+.imgLinks img {
+    width: 100%;
+    height: 70%;
+}
+
+footer {
+    background-color: #25a2c3;
+}
+
+.foot {
+    display: table;
+    color: #c8e7f0;
+    height: 330px;
+    width: 20vw;
+    margin: auto;
+}
+
+.secFoot {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.secFoot h2 {
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.secFoot a {
+    color: #c8e7f0;
+}
+
+.secFoot div {
+    text-align: left;
+}
+
+.copyright {
+    font-size: 17px;
+    text-align: center;
+}
