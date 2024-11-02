@@ -4,6 +4,13 @@ body {
     line-height: 1.65;
 }
 
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+
 header {
     background-color: black;
     box-sizing: border-box;
@@ -74,20 +81,13 @@ header img {
     padding: 100px;
 }
 
-
-h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    line-height: 1.5;
-    color: #25a2c3;
-}
-
 .test {
     background-color: #e22d0e;
     height: 330px;
     color: white;
     width: 100%;
     display: table;
+    font-size: larger;
 }
 
 .commento {
@@ -99,6 +99,7 @@ h2 {
 
 .commento h2 {
     color: white;
+    font-size: 28px;
 }
 
 .secondParagraph {
