@@ -101,6 +101,10 @@ header img {
     font-size: 28px;
 }
 
+.firstParagraph {
+    font-style: italic;
+}
+
 .secondParagraph {
     font-size: 15px;
 }

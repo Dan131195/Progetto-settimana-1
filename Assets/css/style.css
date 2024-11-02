@@ -81,7 +81,7 @@ header img {
 
 .paragraph {
     text-align: center;
-    margin: 20px 0px ;
+    margin: 20px 0px;
 }
 
 
@@ -98,6 +98,7 @@ header img {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+    margin: 15px;
 }
 
 .commento h2 {
@@ -105,12 +106,12 @@ header img {
     font-size: 35px;
 }
 
-.secondParagraph {
-    font-size: 15px;
+.firstParagraph {
+    font-style: italic;
 }
 
 .thirdParagraph {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .link {
